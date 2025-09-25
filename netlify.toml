@@ -1,0 +1,8 @@
+[build]
+  publish = "build"   # या तुम्हारा publish folder: e.g. "dist" (Vite) या "build" (CRA)
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
